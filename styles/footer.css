@@ -1,0 +1,21 @@
+/* Footer */
+.site-footer {
+    background-color: var(--dark);
+    color: white;
+    padding: 25px 40px;
+}
+.site-footer p {
+    font-size: 12px;
+    margin: 4px 0;
+}
+.site-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .site-footer {
+        padding: 20px 15px;
+    }
+}

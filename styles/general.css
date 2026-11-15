@@ -1,0 +1,22 @@
+:root {
+    --blue: #6b9daf;
+    --dark: #1c1c1c;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e5e6e6;
+    color: #111;
+    line-height: 1.5;
+}
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    border: 2px solid #333;
+}
+img {
+    max-width: 100%;
+}

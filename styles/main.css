@@ -1,0 +1,108 @@
+/* Main */
+main {
+    padding: 0 40px 20px;
+}
+
+/* Grid Layout */
+.top-content {
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(200px, 1fr);
+    gap: 40px;
+    align-items: start;
+}
+
+/* Gold Quill */
+.gold-quill img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Section titles */
+.news h2,
+.overview h2 {
+    background-color: var(--blue);
+    color: white;
+    margin: 0;
+}
+
+/* News */
+.news {
+    background-color: white;
+}
+
+.news h2 {
+    font-size: 22px;
+    padding: 8px 12px;
+}
+
+.news ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 20px 15px 28px;
+}
+
+.news li {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+/* Overview */
+.overview {
+    background-color: white;
+    margin-top: 20px;
+}
+
+.overview h2 {
+    font-size: 20px;
+    padding: 8px 15px;
+}
+
+.overview-content {
+    padding: 15px;
+}
+
+.overview h3 {
+    font-size: 18px;
+    margin: 0 0 15px;
+}
+
+.overview p {
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+
+.overview p:last-child {
+    margin-bottom: 0;
+}
+
+/* Advertisement */
+.banner {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.banner img {
+    display: block;
+    width: 80%;
+    max-width: 715px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    main {
+        padding: 15px;
+    }
+
+    .top-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+}
